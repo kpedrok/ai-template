@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${inter.className} container flex flex-col h-screen items-center`}>
-        <div className='w-full border-2 p-6'>Navbar</div>
+        <div className='w-full bg-slate-100 border-2 p-6'>Navbar</div>
         <main className='flex-1 w-full border-2 p-6'>{children}</main>
         <div className='w-full border-2 p-6'>Footer</div>
       </body>

@@ -1,10 +1,9 @@
-import { Button } from '@/components/ui/button'
+import AiChat from '@/components/ai-chat'
 
 export default function Home() {
   return (
-    <main className=''>
-      <div>Hello</div>
-      <Button>Click me</Button>
-    </main>
+    <div className='flex flex-col h-full'>
+      <AiChat></AiChat>
+    </div>
   )
 }
